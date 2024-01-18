@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "Marcus Schubert"
 ---
-LOTS OF TEXT
-LOTS AND LOTS OF TEXT
+Hi! I'm Marcus, a 3rd year at the University of Michigan
