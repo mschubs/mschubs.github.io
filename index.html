@@ -3,7 +3,6 @@ title: Home
 ---
 <main>
     <section id="home">
-        <h1>Marcus Schubert</h1>
         <img src="/assets/images/marcus_professional.jpeg">
     </section>
     <section id="previously">
@@ -14,21 +13,9 @@ title: Home
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
+        {% for item in site.data.projects %}
+            <h3>{{ item.name }}</h3>
+            <p class="projectDescription">{{ item.details }}</p>
+        {% endfor %}
     </section>
 </main>

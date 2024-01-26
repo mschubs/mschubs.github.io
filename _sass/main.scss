@@ -2,19 +2,41 @@
     color: green;
 }
 
+.header {
+    display: flex;
+
+    .name {
+        background-color: aqua;
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        background-color: gray;
+        padding: 15px;
+        width: 60%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link {
+        padding: 20px;
+        color: black;
+    }
+}
+
+.projectDescription {
+    white-space: pre-line;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-}
-
-nav {
-    background-color: gray;
-    padding: 15px;
-    color: gray;
-    width: 200px;
-    height: 400px;
 }
 
 main {
@@ -22,11 +44,8 @@ main {
     padding: 20px;
 }
 
-h2 {
-    color: #333;
-}
-
 img {
     width: 200px;
     height: auto;
+    border-radius: 10px;
 }
