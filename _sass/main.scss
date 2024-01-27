@@ -2,30 +2,44 @@
     color: green;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     display: flex;
+    border-bottom: 2px solid black;
+    padding-top: 5%;
 
     .name {
-        background-color: aqua;
         display: flex;
         width: 40%;
-        justify-content: center;
-        align-items: center;
+        justify-content: baseline;
+        align-items: end;
+        font-size: xx-large;
+        color: black;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
 
     nav {
         display: flex;
-        background-color: gray;
-        padding: 15px;
         width: 60%;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
+        align-items: end;
     }
 
     .link {
-        padding: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         color: black;
+        border-radius: 2px;
+    }
+
+    .link:hover {
+        background-color: lightgray;
     }
 }
 
@@ -34,14 +48,16 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 main {
     flex: 1;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 img {
