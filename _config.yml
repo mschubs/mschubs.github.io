@@ -1,6 +1,4 @@
 collections:
-  authors:
-    output: true
   projects:
 
 defaults:
