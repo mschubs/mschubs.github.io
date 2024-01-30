@@ -19,7 +19,7 @@ li::before {
 
     .name {
         display: flex;
-        width: 40%;
+        flex: 1;
         justify-content: baseline;
         align-items: end;
         font-size: xx-large;
@@ -30,7 +30,6 @@ li::before {
 
     nav {
         display: flex;
-        width: 60%;
         justify-content: end;
         align-items: end;
     }
@@ -132,7 +131,7 @@ body {
     margin: 0;
     padding-left: 20%;
     padding-right: 20%;
-    background-color: #fdfcfa;;
+    background-color: #fdfcfa;
 }
 
 main {
