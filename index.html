@@ -22,8 +22,16 @@ title: Home
                     {% for skill in item.skills %}
                         <div class="skillWrapper"><div class="projectSkill">{{skill}}</div></div>
                     {% endfor %}
-                </div> 
+                </div>
                 <div class="projectDescription">{{ item.details }}</div>
+                <div class="projectLinks">
+                    {% if item.github %}
+                        <div class="linkWrapper"><a href={{item.github}} class="link">github</a></div>
+                    {% endif %}
+                    {% if item.website %}
+                        <div class="linkWrapper"><a href={{item.website}} class="link">website</a></div>
+                    {% endif %} 
+                </div>
             </div>
         {% endfor %}
     </section>
