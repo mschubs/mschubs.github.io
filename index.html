@@ -6,13 +6,15 @@ title: Home
        {% include introduction.html %}
     </section>
     <section id="previously">
-        <h2>Previously</h2>
-        {% for item in site.data.companies %}
-            <li>{{ item.name }}</li>
-        {% endfor %}
+        <h2>Some Places I've Worked At</h2>
+        <ul>
+            {% for item in site.data.companies %}
+                <li>{{ item.name }}</li>
+            {% endfor %}
+        </ul>
     </section>
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>My Projects</h2>
         {% for item in site.data.projects %}
             <div class="project">
                 <div class="projectTitle" >{{ item.name }}</div>
