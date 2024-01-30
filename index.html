@@ -14,8 +14,15 @@ title: Home
     <section id="projects">
         <h2>Projects</h2>
         {% for item in site.data.projects %}
-            <h3>{{ item.name }}</h3>
-            <p class="projectDescription">{{ item.details }}</p>
+            <div class="project">
+                <div class="projectTitle" >{{ item.name }}</div>
+                <div class="skills">
+                    {% for skill in item.skills %}
+                        <div class="skillWrapper"><div class="projectSkill">{{skill}}</div></div>
+                    {% endfor %}
+                </div> 
+                <div class="projectDescription">{{ item.details }}</div>
+            </div>
         {% endfor %}
     </section>
 </main>

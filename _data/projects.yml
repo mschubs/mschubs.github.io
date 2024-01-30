@@ -1,24 +1,30 @@
 - name: Simulating the Collapse of an Interstellar Dust Cloud due to Gravity
+  skills: [Python, Linear Algebra]
   details: |
-    Leveraged linear algebra and Python libraries to model particles moving through space under influence of gravity
-    Circumvented the three body problem and produced results supporting solar system formation theory
+    Leveraged linear algebra and Python libraries to model particles moving through space under influence of gravity.
+    Circumvented the three body problem and produced results supporting solar system formation theory.
 - name: Predicting Drug-Kinase Binding Affinities using Convolutional Neural Networks
+  skills: [Python, Tensorflow, Convolutional Neural Networks]
   details: |
-    Trained and tested convolutional neural networks with the Keras API to predict binding affinity between drug compounds and proteins, varying model structure and achieving an overall prediction accuracy of 73%
-    Gathered data from multiple sources and created an SQLite database to manage and clean data
+    Trained and tested convolutional neural networks with the Keras API to predict binding affinity between drug compounds and proteins, varying model structure and achieving an overall prediction accuracy of 73%.
+    Gathered data from multiple sources and created an SQLite database to manage and clean data.
 - name: Pipelined LC-2K Simulator, Linker, and Compiler
+  skills: [C, Assembly]
   details: |
     Wrote program compiling LC-2K Assembly code files into ELF object files, linking them into single object file
     Executed machine code using Pipeline Datapath, running up to 5 instructions per cycle, with register data forwarding
 - name: Traveling Salesman Problem (TSP) Optimized Solution
+  skills: [C++, Graph Algorithms]
   details: |
     Utilized branch-and-bound to optimize TSP leveraging Nearest Insertion heuristic and Minimum Spanning Trees
     Reduced time complexity from factorial to quadratic, keeping sub-100% approximation error from brute force approach
 - name: Support Vector Machine (SVM) as Multi-Class Movie Review Classifier
+  skills: [Python, Scikit-learn, Pandas]
   details: |
     Extracted word frequency weighted feature matrix; detected possible biases through word embedding association test
     Achieved 80% accuracy; reduced overfitting with hyperparameter selection and quadratic vs linear kernel comparison
-- name: Happening React Native App
+- name: Happening App
+  skills: [Javascript, React Native, Supabase]
   details: |
     Designed and implemented an interactive map app allowing users with University of Michigan login credentials to report events on campus; features include event pin drop, filtering by event type, Google OAuth
     Worked with a team of two other developers to build React Native app, used Supabase for backend, presented prototype at V1Michigan x Contrary demo night
