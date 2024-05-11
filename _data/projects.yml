@@ -1,3 +1,24 @@
+- name: TASA 2048
+  skills: [Javascript, HTML, CSS, Firebase]
+  details: |
+    Developed responsive 2048 style web game with global leaderboard to advertise Taiwanese American Student Association Taste of Taiwan cultural event; attracted 1,000+ users.
+    Built frontend with vanilla Javascript, prioritizing reliable and low latency interface; implemented Firebase functions to receive get and post final score API calls, including proof of game-played logic to hinder leaderboard attacks.
+  website: https://tasa2048.vercel.app
+
+- name: Rusteze
+  skills: [Gemini, Typescript, Python, Rust, C]
+  details: |
+    Won 3rd place out of 65 teams at University of Michigan Google x MHacks 2024 AI Hackathon.
+    Built VS-Code extension in Typescript to intuitively migrate vulnerable C code to memory safe Rust code; Integrated Gemini API into workflow to iteratively rewrite codebases, testing for correct functionality.
+  github: https://github.com/wdevoest/c2rust
+  website: https://devpost.com/software/rusteze-t0r5ak
+
+- name: Multiprocessor Thread Library
+  skills: [C++]
+  details: |
+    Designed thread library supporting multiple parallel CPUs; implemented monitors (mutexes and condition variables).
+    Handled interrupts, minimized context switching, managed shared state; utilized smart pointers, RAII.
+
 - name: Happening App
   skills: [Javascript, React Native, Supabase]
   details: |
