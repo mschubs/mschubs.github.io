@@ -10,10 +10,10 @@
         <div class="projectDescription">{{ item.details }}</div>
         <div class="projectLinks">
             {% if item.github %}
-                <div class="linkWrapper"><a href={{item.github}} class="link">github</a></div>
+                <div class="linkWrapper"><a href={{item.github}} class="link" target="_blank" rel="noopener noreferrer">github</a></div>
             {% endif %}
             {% if item.website %}
-                <div class="linkWrapper"><a href={{item.website}} class="link">website</a></div>
+                <div class="linkWrapper"><a href={{item.website}} class="link" target="_blank" rel="noopener noreferrer">website</a></div>
             {% endif %} 
         </div>
     </div>
